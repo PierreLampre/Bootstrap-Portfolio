@@ -21,29 +21,40 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="navbox d-flex justify-content-between px-5 py-2 align-items-center bg-info col-12">
-        <h1 class="text-light offset-1 col-7">Justin Lampe</h1>
-        <span>
-            <a href="index.html" class="px-3 text-light">About Me</a>
-            <a href="portfolio.html" class="px-3 text-light">Portfolio</a>
-            <a href="contact.html" class="px-3 text-light">Contact</a>
-        </span>
-        <span></span>
-    </div>
+        <nav class="navbar navbar-expand-md navbar-info navbar-light bg-info p-3">
+                <a class="navbar-brand text-light ml-5 mr-5" href="#">Justin Lampe</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon navbar-light"></span>
+                </button>
+                <div class="col-xl-7 col-lg-6 col-md-5"></div>
+                <div class="collapse navbar-collapse ml-5" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link text-light"  href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
 
     <div class="row mt-5"></div>
     <!-- <div class="row mt-1"></div> -->
 
-    <div class="container border">
+    <div class="container-fluid border col-lg-12 mx-2">
         <div class="row mt-5">
-            <div class="col-xl-10 offset-xl-1 col-lg-9 offset-lg-1">
                 <div class="row">
-                    <h1 class="mb-5">About Me</h1>
+                    <h1 class="mb-5 ml-5">About Me</h1>
                     <div class="row">
-                        <div class="col-4">
-                            <img src="assets/img/me_simba.jpg" alt="" class="img-thumbnail">
+                        <div class="col-3">
+                            <img src="assets/img/me_simba.jpg" alt="" class="img-thumbnail ml-5">
                         </div>
-                        <div class="col-8">
+                        <div class="col-1"></div>
+                        <div class="col-7 pr-lg-5 pr-md-5">
                             <p>Hello and thank you for taking the time to peruse my online portfolio.
                                 Please feel
                                 free to move about the cabin.</p>
@@ -63,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
         <div class="row mt-5"></div>
     </div>
@@ -75,7 +86,10 @@
     </footer>
 
 
-    <script src="" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
